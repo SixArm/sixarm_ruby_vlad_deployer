@@ -1,8 +1,8 @@
-= SixArm.com » Ruby » Vlad Depoyer config and notes
+# SixArm.com » Ruby » Vlad Deployer config and notes
 
-Author:: Joel Parker Henderson, joel@joelparkerhenderson.com
-Copyright:: Copyright (c) 2008-2012 Joel Parker Henderson
-License:: See LICENSE.txt file
+* Author: Joel Parker Henderson, joel@joelparkerhenderson.com
+* Copyright: Copyright (c) 2008-2012 Joel Parker Henderson
+* License: See LICENSE.txt file
 
 Vlad is an excellent deployment tool for Ruby On Rails projects.
 
@@ -28,7 +28,7 @@ This repository has our annotated Vlad deploy file. It is open source and you ca
 
 We're happy to hear your feedback and to receive pull requests.
 
-=== Vlad gems
+## Vlad gems
 
 We use these gems:
 
@@ -36,15 +36,16 @@ We use these gems:
    gem install vlad-git
    gem install vlad-extras
 
-=== Vlad tasks
+## Vlad tasks
 
-Vlad basics:
+Vlad most important tasks:
 
-   rake vlad:setup               # Setup your servers. Required first time. Safe to re-run.
-   rake vlad:update              # Updates your application server to the latest revision.
-   rake vlad:start               # Start (or restart) the web and app servers
+    rake vlad:setup               # Setup your servers. Required first time. Safe to re-run.
+    rake vlad:update              # Updates your application server to the latest revision.
+    rake vlad:start               # Start (or restart) the web and app servers
 
-Vlad tasks:
+
+Vlad additional tasks:
 
     rake vlad:debug              # Show the vlad setup.
     rake vlad:invoke             # Invoke a single command on every remote server.
@@ -53,7 +54,7 @@ Vlad tasks:
     rake vlad:setup_app          # Prepares application servers for deployment.
     rake vlad:start_app          # Restart Passenger
 
-Vlad extras:
+Vlad tasks defined by the vlad-extras gem:
 
     rake vlad:assets:clean       # Clean assets
     rake vlad:assets:precompile  # Precompile assets
