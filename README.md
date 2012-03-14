@@ -1,16 +1,17 @@
 # SixArm.com » Ruby » Vlad Deployer config and notes
 
-* Author: Joel Parker Henderson, joel@joelparkerhenderson.com
-* Copyright: Copyright (c) 2008-2012 Joel Parker Henderson
-* License: See LICENSE.txt file
+* Docs: <http://sixarm.com/sixarm_ruby_/doc>
+* Repo: <http://github.com/sixarm/sixarm_ruby_>
+* Email: Joel Parker Henderson, <joel@sixarm.com>
+
+
+## Introduction
 
 Vlad is an excellent deployment tool for Ruby On Rails projects.
 
 Read about deployment with Vlad:
 
     http://dennisreimann.de/blog/deployment-with-vlad/
-
-The Vlad home page:
 
     http://rubyhitsquad.com/Vlad_the_Deployer.html
 
@@ -26,7 +27,10 @@ What we like about Vlad:
 
 This repository has our annotated Vlad deploy file. It is open source and you can customize it however you like.
 
-We're happy to hear your feedback and to receive pull requests.
+For docs go to <http://sixarm.com/sixarm_ruby_/doc>
+
+Want to help? We're happy to get pull requests.
+
 
 ## Vlad gems
 
