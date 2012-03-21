@@ -83,3 +83,41 @@ Vlad tasks defined by the vlad-extras gem:
     rake vlad:stop_web           # Stop the web servers
     rake vlad:symlink            # Symlink files (typically from /shared to /current)
 
+
+## Changes
+
+* 2012-03-14 1.0.0 Update docs, tests
+* 2012-02-29 1.0.0 Add full annotations and publish to github
+* 2011-11-03 0.8.0 Fund Vlad team to create ssh gem
+* 2009-12-20 0.6.0 Fund Vlad team to create rake-remote_task
+* 2009-06-12 0.4.0 Add host targets for www, qa, ua, ci
+* 2009-03-10 0.2.0 Fund Vlad team to create high security trust policy
+* 2009-03-06 0.1.0 Create first deploy
+
+## License
+
+You may choose any of these open source licenses:
+
+  * Apache License
+  * BSD License
+  * CreativeCommons License, Non-commercial Share Alike
+  * GNU General Public License Version 2 (GPL 2)
+  * GNU Lesser General Public License (LGPL)
+  * MIT License
+  * Perl Artistic License
+  * Ruby License
+
+The software is provided "as is", without warranty of any kind, 
+express or implied, including but not limited to the warranties of 
+merchantability, fitness for a particular purpose and noninfringement. 
+
+In no event shall the authors or copyright holders be liable for any 
+claim, damages or other liability, whether in an action of contract, 
+tort or otherwise, arising from, out of or in connection with the 
+software or the use or other dealings in the software.
+
+This license is for the included software that is created by SixArm;
+some of the included software may have its own licenses, copyrights, 
+authors, etc. and these do take precedence over the SixArm license.
+
+Copyright (c) 2005-2013 Joel Parker Henderson
