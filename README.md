@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » Vlad Deployer config and notes
+# Ruby » Vlad Deployer config and notes
 
 * Doc: <http://sixarm.com/sixarm_ruby_/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_>
